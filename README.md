@@ -7,7 +7,7 @@ A simple Python-based audio transcription pipeline that accepts audio files, con
 The implementation uses a Whisper-based speech-to-text API. The assessment focuses on building the transcription pipeline rather than training a speech recognition model from scratch.
 
 The pipeline consists of three main steps:
-
+ 
 1. Validate and accept an audio file.
 2. Transcribe spoken language into text.
 3. Return the transcription with segment-level timestamps.
