@@ -2,7 +2,7 @@ import os
 from openai import OpenAI
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
+ 
 
 def transcribe_with_timestamps(audio_file: str):
     with open(audio_file, "rb") as file:
